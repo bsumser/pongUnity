@@ -20,7 +20,6 @@ public class Ball : MonoBehaviour
         transform.position = startPosition;
         Launch();
     }
-    // Update is called once per frame
     private void Launch()
     {
         float x = Random.Range(0,2) == 0 ? -1 : 1;
